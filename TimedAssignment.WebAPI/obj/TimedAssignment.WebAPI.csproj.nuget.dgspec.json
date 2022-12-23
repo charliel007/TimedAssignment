@@ -1,37 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.WebAPI\\TimedAssignment.WebAPI.csproj": {}
+    "C:\\Users\\n64ev\\OneDrive\\Documents\\ElevenFiftyProjects\\Blue Badge\\TimedAssignment\\TImedAssignment.WebAPI\\TImedAssignment.WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.WebAPI\\TimedAssignment.WebAPI.csproj": {
+    "C:\\Users\\n64ev\\OneDrive\\Documents\\ElevenFiftyProjects\\Blue Badge\\TimedAssignment\\TImedAssignment.WebAPI\\TImedAssignment.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.WebAPI\\TimedAssignment.WebAPI.csproj",
-        "projectName": "TimedAssignment.WebAPI",
-        "projectPath": "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.WebAPI\\TimedAssignment.WebAPI.csproj",
-        "packagesPath": "C:\\Users\\lippe\\.nuget\\packages\\",
-        "outputPath": "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.WebAPI\\obj\\",
+        "projectUniqueName": "C:\\Users\\n64ev\\OneDrive\\Documents\\ElevenFiftyProjects\\Blue Badge\\TimedAssignment\\TImedAssignment.WebAPI\\TImedAssignment.WebAPI.csproj",
+        "projectName": "TImedAssignment.WebAPI",
+        "projectPath": "C:\\Users\\n64ev\\OneDrive\\Documents\\ElevenFiftyProjects\\Blue Badge\\TimedAssignment\\TImedAssignment.WebAPI\\TImedAssignment.WebAPI.csproj",
+        "packagesPath": "C:\\Users\\n64ev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\n64ev\\OneDrive\\Documents\\ElevenFiftyProjects\\Blue Badge\\TimedAssignment\\TImedAssignment.WebAPI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\lippe\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\n64ev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -42,16 +37,20 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[6.2.3, )"
             }
           },
           "imports": [
@@ -73,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
