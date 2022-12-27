@@ -1,32 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\n64ev\\OneDrive\\Documents\\ElevenFiftyProjects\\Blue Badge\\TimedAssignment\\TImedAssignment.WebAPI\\TImedAssignment.WebAPI.csproj": {}
+    "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.WebAPI\\TimedAssignment.WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\n64ev\\OneDrive\\Documents\\ElevenFiftyProjects\\Blue Badge\\TimedAssignment\\TImedAssignment.WebAPI\\TImedAssignment.WebAPI.csproj": {
+    "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.Data\\TimedAssignment.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\n64ev\\OneDrive\\Documents\\ElevenFiftyProjects\\Blue Badge\\TimedAssignment\\TImedAssignment.WebAPI\\TImedAssignment.WebAPI.csproj",
-        "projectName": "TImedAssignment.WebAPI",
-        "projectPath": "C:\\Users\\n64ev\\OneDrive\\Documents\\ElevenFiftyProjects\\Blue Badge\\TimedAssignment\\TImedAssignment.WebAPI\\TImedAssignment.WebAPI.csproj",
-        "packagesPath": "C:\\Users\\n64ev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\n64ev\\OneDrive\\Documents\\ElevenFiftyProjects\\Blue Badge\\TimedAssignment\\TImedAssignment.WebAPI\\obj\\",
+        "projectUniqueName": "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.Data\\TimedAssignment.Data.csproj",
+        "projectName": "TimedAssignment.Data",
+        "projectPath": "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.Data\\TimedAssignment.Data.csproj",
+        "packagesPath": "C:\\Users\\lippe\\.nuget\\packages\\",
+        "outputPath": "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\n64ev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lippe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -37,10 +42,219 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.Models\\TimedAssignment.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.Models\\TimedAssignment.Models.csproj",
+        "projectName": "TimedAssignment.Models",
+        "projectPath": "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.Models\\TimedAssignment.Models.csproj",
+        "packagesPath": "C:\\Users\\lippe\\.nuget\\packages\\",
+        "outputPath": "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lippe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.Services\\TimedAssignment.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.Services\\TimedAssignment.Services.csproj",
+        "projectName": "TimedAssignment.Services",
+        "projectPath": "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.Services\\TimedAssignment.Services.csproj",
+        "packagesPath": "C:\\Users\\lippe\\.nuget\\packages\\",
+        "outputPath": "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lippe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.Data\\TimedAssignment.Data.csproj": {
+                "projectPath": "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.Data\\TimedAssignment.Data.csproj"
+              },
+              "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.Models\\TimedAssignment.Models.csproj": {
+                "projectPath": "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.Models\\TimedAssignment.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.WebAPI\\TimedAssignment.WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.WebAPI\\TimedAssignment.WebAPI.csproj",
+        "projectName": "TimedAssignment.WebAPI",
+        "projectPath": "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.WebAPI\\TimedAssignment.WebAPI.csproj",
+        "packagesPath": "C:\\Users\\lippe\\.nuget\\packages\\",
+        "outputPath": "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.WebAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lippe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.Data\\TimedAssignment.Data.csproj": {
+                "projectPath": "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.Data\\TimedAssignment.Data.csproj"
+              },
+              "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.Models\\TimedAssignment.Models.csproj": {
+                "projectPath": "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.Models\\TimedAssignment.Models.csproj"
+              },
+              "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.Services\\TimedAssignment.Services.csproj": {
+                "projectPath": "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.Services\\TimedAssignment.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.1, )"
             },
@@ -50,7 +264,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[6.4.0, )"
             }
           },
           "imports": [
@@ -72,7 +286,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
