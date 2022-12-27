@@ -1,15 +1,23 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
+
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>776f1820-04fd-48d5-b78c-3c3742ac54ee</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.0-preview.6.22330.3" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.1" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TimedAssignment.Services\TimedAssignment.Services.csproj" />
+    <ProjectReference Include="..\TimedAssignment.Models\TimedAssignment.Models.csproj" />
+    <ProjectReference Include="..\TimedAssignment.Data\TimedAssignment.Data.csproj" />
   </ItemGroup>
 
 </Project>

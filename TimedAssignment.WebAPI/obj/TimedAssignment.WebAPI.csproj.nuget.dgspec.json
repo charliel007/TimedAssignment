@@ -1,32 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\n64ev\\OneDrive\\Documents\\ElevenFiftyProjects\\Blue Badge\\TimedAssignment\\TImedAssignment.WebAPI\\TImedAssignment.WebAPI.csproj": {}
+    "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.WebAPI/TimedAssignment.WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\n64ev\\OneDrive\\Documents\\ElevenFiftyProjects\\Blue Badge\\TimedAssignment\\TImedAssignment.WebAPI\\TImedAssignment.WebAPI.csproj": {
+    "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.Data/TimedAssignment.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\n64ev\\OneDrive\\Documents\\ElevenFiftyProjects\\Blue Badge\\TimedAssignment\\TImedAssignment.WebAPI\\TImedAssignment.WebAPI.csproj",
-        "projectName": "TImedAssignment.WebAPI",
-        "projectPath": "C:\\Users\\n64ev\\OneDrive\\Documents\\ElevenFiftyProjects\\Blue Badge\\TimedAssignment\\TImedAssignment.WebAPI\\TImedAssignment.WebAPI.csproj",
-        "packagesPath": "C:\\Users\\n64ev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\n64ev\\OneDrive\\Documents\\ElevenFiftyProjects\\Blue Badge\\TimedAssignment\\TImedAssignment.WebAPI\\obj\\",
+        "projectUniqueName": "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.Data/TimedAssignment.Data.csproj",
+        "projectName": "TimedAssignment.Data",
+        "projectPath": "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.Data/TimedAssignment.Data.csproj",
+        "packagesPath": "/Users/nelsonfantiv/.nuget/packages/",
+        "outputPath": "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.Data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\n64ev\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/nelsonfantiv/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -37,9 +35,201 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100-preview.6.22352.1/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.Models/TimedAssignment.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.Models/TimedAssignment.Models.csproj",
+        "projectName": "TimedAssignment.Models",
+        "projectPath": "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.Models/TimedAssignment.Models.csproj",
+        "packagesPath": "/Users/nelsonfantiv/.nuget/packages/",
+        "outputPath": "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.Models/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nelsonfantiv/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100-preview.6.22352.1/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.Services/TimedAssignment.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.Services/TimedAssignment.Services.csproj",
+        "projectName": "TimedAssignment.Services",
+        "projectPath": "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.Services/TimedAssignment.Services.csproj",
+        "packagesPath": "/Users/nelsonfantiv/.nuget/packages/",
+        "outputPath": "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.Services/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nelsonfantiv/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.Data/TimedAssignment.Data.csproj": {
+                "projectPath": "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.Data/TimedAssignment.Data.csproj"
+              },
+              "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.Models/TimedAssignment.Models.csproj": {
+                "projectPath": "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.Models/TimedAssignment.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100-preview.6.22352.1/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.WebAPI/TimedAssignment.WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.WebAPI/TimedAssignment.WebAPI.csproj",
+        "projectName": "TimedAssignment.WebAPI",
+        "projectPath": "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.WebAPI/TimedAssignment.WebAPI.csproj",
+        "packagesPath": "/Users/nelsonfantiv/.nuget/packages/",
+        "outputPath": "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.WebAPI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nelsonfantiv/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.Data/TimedAssignment.Data.csproj": {
+                "projectPath": "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.Data/TimedAssignment.Data.csproj"
+              },
+              "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.Models/TimedAssignment.Models.csproj": {
+                "projectPath": "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.Models/TimedAssignment.Models.csproj"
+              },
+              "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.Services/TimedAssignment.Services.csproj": {
+                "projectPath": "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.Services/TimedAssignment.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.0-preview.6.22330.3, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.1, )"
@@ -72,7 +262,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100-preview.6.22352.1/RuntimeIdentifierGraph.json"
         }
       }
     }
