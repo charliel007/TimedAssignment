@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.WebAPI/TimedAssignment.WebAPI.csproj": {}
+    "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.WebAPI\\TimedAssignment.WebAPI.csproj": {}
   },
   "projects": {
-    "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.Data/TimedAssignment.Data.csproj": {
+    "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.Data\\TimedAssignment.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.Data/TimedAssignment.Data.csproj",
+        "projectUniqueName": "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.Data\\TimedAssignment.Data.csproj",
         "projectName": "TimedAssignment.Data",
-        "projectPath": "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.Data/TimedAssignment.Data.csproj",
-        "packagesPath": "/Users/nelsonfantiv/.nuget/packages/",
-        "outputPath": "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.Data/obj/",
+        "projectPath": "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.Data\\TimedAssignment.Data.csproj",
+        "packagesPath": "C:\\Users\\lippe\\.nuget\\packages\\",
+        "outputPath": "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/nelsonfantiv/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\lippe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -59,26 +66,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100-preview.6.22352.1/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.Models/TimedAssignment.Models.csproj": {
+    "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.Models\\TimedAssignment.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.Models/TimedAssignment.Models.csproj",
+        "projectUniqueName": "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.Models\\TimedAssignment.Models.csproj",
         "projectName": "TimedAssignment.Models",
-        "projectPath": "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.Models/TimedAssignment.Models.csproj",
-        "packagesPath": "/Users/nelsonfantiv/.nuget/packages/",
-        "outputPath": "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.Models/obj/",
+        "projectPath": "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.Models\\TimedAssignment.Models.csproj",
+        "packagesPath": "C:\\Users\\lippe\\.nuget\\packages\\",
+        "outputPath": "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.Models\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/nelsonfantiv/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\lippe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -112,37 +126,44 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100-preview.6.22352.1/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.Services/TimedAssignment.Services.csproj": {
+    "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.Services\\TimedAssignment.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.Services/TimedAssignment.Services.csproj",
+        "projectUniqueName": "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.Services\\TimedAssignment.Services.csproj",
         "projectName": "TimedAssignment.Services",
-        "projectPath": "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.Services/TimedAssignment.Services.csproj",
-        "packagesPath": "/Users/nelsonfantiv/.nuget/packages/",
-        "outputPath": "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.Services/obj/",
+        "projectPath": "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.Services\\TimedAssignment.Services.csproj",
+        "packagesPath": "C:\\Users\\lippe\\.nuget\\packages\\",
+        "outputPath": "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.Services\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/nelsonfantiv/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\lippe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.Data/TimedAssignment.Data.csproj": {
-                "projectPath": "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.Data/TimedAssignment.Data.csproj"
+              "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.Data\\TimedAssignment.Data.csproj": {
+                "projectPath": "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.Data\\TimedAssignment.Data.csproj"
               },
-              "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.Models/TimedAssignment.Models.csproj": {
-                "projectPath": "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.Models/TimedAssignment.Models.csproj"
+              "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.Models\\TimedAssignment.Models.csproj": {
+                "projectPath": "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.Models\\TimedAssignment.Models.csproj"
               }
             }
           }
@@ -178,40 +199,47 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100-preview.6.22352.1/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.WebAPI/TimedAssignment.WebAPI.csproj": {
+    "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.WebAPI\\TimedAssignment.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.WebAPI/TimedAssignment.WebAPI.csproj",
+        "projectUniqueName": "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.WebAPI\\TimedAssignment.WebAPI.csproj",
         "projectName": "TimedAssignment.WebAPI",
-        "projectPath": "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.WebAPI/TimedAssignment.WebAPI.csproj",
-        "packagesPath": "/Users/nelsonfantiv/.nuget/packages/",
-        "outputPath": "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.WebAPI/obj/",
+        "projectPath": "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.WebAPI\\TimedAssignment.WebAPI.csproj",
+        "packagesPath": "C:\\Users\\lippe\\.nuget\\packages\\",
+        "outputPath": "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.WebAPI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/nelsonfantiv/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\lippe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.Data/TimedAssignment.Data.csproj": {
-                "projectPath": "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.Data/TimedAssignment.Data.csproj"
+              "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.Data\\TimedAssignment.Data.csproj": {
+                "projectPath": "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.Data\\TimedAssignment.Data.csproj"
               },
-              "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.Models/TimedAssignment.Models.csproj": {
-                "projectPath": "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.Models/TimedAssignment.Models.csproj"
+              "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.Models\\TimedAssignment.Models.csproj": {
+                "projectPath": "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.Models\\TimedAssignment.Models.csproj"
               },
-              "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.Services/TimedAssignment.Services.csproj": {
-                "projectPath": "/Users/nelsonfantiv/Desktop/GroupProjects/TimedProject/TimedAssignment/TimedAssignment.Services/TimedAssignment.Services.csproj"
+              "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.Services\\TimedAssignment.Services.csproj": {
+                "projectPath": "C:\\ElevenFiftyProjects\\efa160\\blueBadge\\GroupProjects\\TimedAssignment\\TimedAssignment.Services\\TimedAssignment.Services.csproj"
               }
             }
           }
@@ -228,10 +256,6 @@
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[7.0.0-preview.6.22330.3, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
               "version": "[7.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
@@ -240,7 +264,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[6.4.0, )"
             }
           },
           "imports": [
@@ -262,7 +286,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100-preview.6.22352.1/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

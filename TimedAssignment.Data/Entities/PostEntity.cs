@@ -1,19 +1,26 @@
+
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-namespace TimedAssignment.Data.Entities
+
+namespace TimedAssignment.Models
+
 {
     public class PostEntity
     {
         [Key]
         public int Id { get; set; }
+
         [Required]
-        public int Title { get; set; }
+        public string Title { get; set; }
+
         [Required]
-        public int Text { get; set; }
+        public string Text { get; set; }
+
         [Required]
-        public int AuthorId { get; set; }
+        public Guid AuthorId { get; set; }
+
         public PostEntity()
         {
         }
-
     }
 }

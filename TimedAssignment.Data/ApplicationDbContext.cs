@@ -1,15 +1,18 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using TimedAssignment.Data.Entities;
+using TimedAssignment.Models;
 
 namespace TimedAssignment.Data
 {
-
     public class ApplicationDbContext : DbContext
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options):base(options)
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
         }
 
-        public DbSet<PostEntity> Posts { get; set; }
+        public DbSet<PostEntity> Post { get; set; }
     }
 }
