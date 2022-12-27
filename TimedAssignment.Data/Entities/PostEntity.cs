@@ -1,7 +1,9 @@
+
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace TimedAssignment.Models
+
 {
     public class PostEntity
     {
