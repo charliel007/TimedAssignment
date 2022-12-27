@@ -13,6 +13,6 @@ namespace TimedAssignment.Data
         {
         }
 
-        public DbSet<PostEntity> Post { get; set; }
+        public DbSet<PostEntity> Posts { get; set; }
     }
 }
