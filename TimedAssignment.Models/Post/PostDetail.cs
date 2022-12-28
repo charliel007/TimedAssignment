@@ -14,6 +14,6 @@ namespace TimedAssignment.Models.Post
 
         public string Text { get; set; }
 
-        public DateTime DateCreated { get; set; }
+        public DateTimeOffset DateCreated { get; set; }
     }
 }

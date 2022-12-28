@@ -16,6 +16,9 @@ namespace TimedAssignment.Data.Entities
         [Required]
         public string Text { get; set; }
 
+        [Required]
+        public DateTimeOffset CreatedDate { get; set; }
+
         public PostEntity()
         {
         }

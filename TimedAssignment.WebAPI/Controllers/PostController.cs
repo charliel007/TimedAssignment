@@ -35,6 +35,13 @@ namespace TimedAssignment.WebAPI.Controllers
 
         return BadRequest("Post could not be created");
     }
+
+    [HttpGet]
+    public async Task<IActionResult> GetAllPostsAsync()
+    {
+        var posts = await _service.GetAllPostsAsync();
+        return Ok(posts);
+    }
 }
 
 }
