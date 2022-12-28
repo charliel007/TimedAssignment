@@ -13,7 +13,6 @@ namespace TimedAssignment.Services.Post
     public class PostService : IPostService
     {
         private readonly ApplicationDbContext _context;
-        private readonly int _postId;
         public PostService(ApplicationDbContext context)
         {
             _context = context;
