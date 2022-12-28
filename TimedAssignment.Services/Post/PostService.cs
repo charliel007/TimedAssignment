@@ -22,7 +22,9 @@ namespace TimedAssignment.Services.Post
             var entity = new PostEntity
             {
                 Title = model.Title,
-                Text = model.Text
+                Text = model.Text,
+                CreatedDate = DateTimeOffset.Now
+                
             };
 
             _context.Posts.Add(entity);
@@ -32,10 +34,18 @@ namespace TimedAssignment.Services.Post
         }
 
         
-        public async Task<List<PostEntity>> GetAllPosts()
+        public async Task<IEnumerable<PostDetail>> GetAllPostsAsync()
         {
-
-            return await _context.Posts.ToListAsync();
+            var posts =  await _context.Posts
+            .Select(entity => new PostDetail
+                {
+                    Id = entity.Id,
+                    Title = entity.Title,
+                    Text = entity.Text,
+                    DateCreated = entity.CreatedDate
+                }).ToListAsync();
+                
+            return posts;
         }
 
     }

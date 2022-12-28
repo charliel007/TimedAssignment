@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using TimedAssignment.Models.Post;
@@ -34,6 +35,13 @@ namespace TimedAssignment.WebAPI.Controllers
         }
 
         return BadRequest("Post could not be created");
+    }
+
+    [HttpGet]
+    public async Task<IActionResult> GetAllPostsAsync()
+    {
+        var posts = await _service.GetAllPostsAsync();
+        return Ok(posts);
     }
 }
 

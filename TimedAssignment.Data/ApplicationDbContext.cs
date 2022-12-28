@@ -14,5 +14,6 @@ namespace TimedAssignment.Data
         }
 
         public DbSet<PostEntity> Posts { get; set; }
+        public DbSet<CommentEntity> Comments { get; set; }
     }
 }

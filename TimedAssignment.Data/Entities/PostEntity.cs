@@ -16,6 +16,11 @@ namespace TimedAssignment.Data.Entities
         [Required]
         public string Text { get; set; }
 
+        [Required]
+        public DateTimeOffset CreatedDate { get; set; }
+
+        public List<CommentEntity> Comments { get; set; }
+
         public PostEntity()
         {
         }
