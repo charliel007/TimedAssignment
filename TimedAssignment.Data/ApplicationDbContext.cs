@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using TimedAssignment.Data.Entities;
+
 
 namespace TimedAssignment.Data
 {
@@ -11,5 +11,8 @@ namespace TimedAssignment.Data
         }
 
         public DbSet<PostEntity> Posts { get; set; }
+        public DbSet<ReplyEntity> Replies { get; set; }
+        public DbSet<Comment> Comments { get; set; }
+        public DbSet<User> Users { get; set; }
     }
 }
