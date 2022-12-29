@@ -21,8 +21,6 @@ namespace TimedAssignment.Data.Entities
 
         public List<CommentEntity> Comments { get; set; }
 
-        public PostEntity()
-        {
-        }
+  
     }
 }

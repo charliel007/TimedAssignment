@@ -15,14 +15,10 @@ namespace TimedAssignment.Services.Comment
     {
         private readonly int _PostedId;
         private readonly ApplicationDbContext _dbContext;
-        public CommentService(IHttpContextAccessor httpContextAccessor, ApplicationDbContext dbContext)
+        public CommentService(ApplicationDbContext dbContext)
         {
-            _PostedId = 2;
-            var userClaims = httpContextAccessor.HttpContext.User.Identity as ClaimsIdentity;
-            var value = userClaims.FindFirst("Id")?.Value;
-            var validId = int.TryParse(value, out _PostedId);
-            if (!validId)
-                throw new Exception("Attempted to build Post without Post Id claim.");
+            
+          
                 
             _dbContext = dbContext;
         }
@@ -32,7 +28,7 @@ namespace TimedAssignment.Services.Comment
                 var commentEntity = new CommentEntity
                 {
                     Text = request.Text,
-                    PostedId = _PostedId
+                    PostedId = request.PostedId
                 };
 
                 _dbContext.Comments.Add(commentEntity);
