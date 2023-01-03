@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 using TimedAssignment.Data;
 using TimedAssignment.Data.Entities;
 using TimedAssignment.Models;
@@ -21,7 +22,9 @@ namespace TimedAssignment.Services.Post
             var entity = new PostEntity
             {
                 Title = model.Title,
-                Text = model.Text
+                Text = model.Text,
+                CreatedDate = DateTimeOffset.Now
+                
             };
 
             _context.Posts.Add(entity);
@@ -29,5 +32,21 @@ namespace TimedAssignment.Services.Post
 
             return numberOfChanges == 1;
         }
+
+        
+        public async Task<IEnumerable<PostDetail>> GetAllPostsAsync()
+        {
+            var posts =  await _context.Posts
+            .Select(entity => new PostDetail
+                {
+                    Id = entity.Id,
+                    Title = entity.Title,
+                    Text = entity.Text,
+                    DateCreated = entity.CreatedDate
+                }).ToListAsync();
+                
+            return posts;
+        }
+
     }
 }
